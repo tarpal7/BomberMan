@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bomb">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Bomb::BOMB_STATE">
+        <TypeIdentifier>
+          <NewMemberFileName>Bomb.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAJIgAAAAAAAAAACEAAAAAAAEAAA=</HashCode>
+      <FileName>Bomb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEAAAgAAAAAAAAAAIAIAAIAAAAAgAAAAAAAAIEAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardListener">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="KeyboardListener::WantedKey" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>KeyboardListener.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAEAAgAAAAIAEAAAAAAAAAAAABAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyboardListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMan">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PlayerMan::PLAYER_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PlayerMan.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAACAgCAAIQIAAIAAACAAAAAAAASEAAAAA=</HashCode>
+      <FileName>PlayerMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapLoader">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAAGAAAAQAAAAAAAAAAAAGAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAgAAAAAAIQABAAAQAABAAAAAEQAA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Updatable">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAEAAAAAIgAAAAAAAAAAAABAAIAAMAAA=</HashCode>
+      <FileName>Updatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Wall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAACAAAIgAAAACAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="KL" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyboardListener.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
